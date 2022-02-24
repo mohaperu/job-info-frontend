@@ -37,6 +37,7 @@ function App() {
         <Route path="/recruiter-register">
           <RecruiterRegister />
         </Route>
+        
         {recruiter ?
           <>
             <Route path="/recruiter">
@@ -57,7 +58,6 @@ function App() {
             <RecruiterLogin />
           </Route>
         }
-
 
       </Switch>
     </div>
