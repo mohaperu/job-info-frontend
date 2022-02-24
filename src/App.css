@@ -1,38 +1,224 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.home{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.home{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#search{
+  text-align: left;
+  padding-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20rem;
+  margin-right: 8px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#searchButton{
+  padding: 5px;
+  border-radius: 5px;
+  width: 5rem;
+  text-align: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jobCards{
+  border: 1px solid black;
+  margin: 0 4rem;
+  border-radius: 8px;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+
+.jobTitle{
+  text-align: left;
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.jobcard{
+  border: 1px solid black;
+  margin: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  background-color: beige;
+}
+
+.jobDesc{
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2px;
+
+}
+
+.jobDescItem{
+  display: flex; 
+  gap: 5px;
+  padding-left: 5px;
+}
+
+.apply{
+ text-align: end;
+ margin-right: 10rem;
+ margin-top: -4rem;
+ padding-bottom: 2rem; 
+}
+
+#applybtn{
+  padding: 3px 10px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.jobItem{
+  padding-left: 1rem;
+}
+
+.desc{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: -.8rem;
+  margin-left: 6px;
+}
+
+.viewDesc{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Recruiter Page */
+.card{
+  border: 5px solid black;
+  margin: 3rem 4rem;
+  cursor: pointer;
+}
+
+.plus{
+  display: inline-block;
+}
+
+.addJobs{
+  padding: 1rem;
+  margin: 0;
+}
+
+#loginLink, #headLink, #recruiter-create{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Login Register */
+.box{
+  display: flex;
+  flex-grow: inherit;
+  box-sizing: content-box;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.register-btn{
+  float: right;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.register-btn:hover{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* loginChoice */
+
+.login-choice{
+  margin-top: 15%;
+  text-align: center;
+}
+
+#logChoi{
+  margin: 1rem 0;
+}
+
+/* create */
+
+.recruiter-post{
+  text-align: center;
+  margin-top: 7%;
+}
+
+#ltitle, #lskills, #ldesc{
+  margin-right: 15rem;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+#ldesc{
+  margin-right: 9.5rem;
+
+}
+
+#title, #skills, #desc{
+  width: 18rem;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#submit{
+  margin-top: 10px;
+  width: 18rem;
+  padding: 2px;
+  background-color: rgba(135, 167, 226, 0.453);
+}
+
+.recruiter-create-title{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.applycand{
+  text-align: end;
+  margin-right: 4.2rem;
+  cursor: pointer;
+}
+
+.applycand:hover{
+  color: blue;
+}
+
+.appliedCandid{
+margin-top: 3rem;
+}
+
+#username{
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+.showDetails{
+  padding-left: 5px;
+}
+
+.mb-3{
+  margin-top: 1rem;
+}
+
+.recruit-title{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15px; 
 }
